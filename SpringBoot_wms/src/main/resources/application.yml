@@ -1,0 +1,10 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/wms
+    username: root
+    password: czc123
+logging:
+  level:
+    com.czc: debug
